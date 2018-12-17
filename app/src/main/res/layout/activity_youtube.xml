@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gaurav.comfortzone.Youtube">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        > </com.google.android.youtube.player.YouTubePlayerView>
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/video1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/video1"
+                android:text="Unit-1 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/linearLayout"
+                android:text="Unit-2 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="60dp"
+                android:text="Unit-3 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/linearLayout"
+                android:text="Unit-4 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/linearLayout"
+                android:text="Unit-5 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/linearLayout"
+                android:text="Unit-6 Study Material"
+                android:textColor="@android:color/white"
+                app:buttonColor="@color/btnSignActive"
+                app:cornerRadius="4dp"
+                app:shadowColor="@android:color/black"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
