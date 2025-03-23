@@ -47,6 +47,3 @@
  phone No.  
  * App was solely developed by me, no other persons was part of this project.   
  
- CONTACT  Gaurav Kumar Mishra  
- E-mail: Gaurav.mis2736@gmail.com 
- Phone No : +91 - 9876236353
